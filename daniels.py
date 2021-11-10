@@ -1,1 +1,1 @@
-print("Hello World!")
+# Veidoju programmu ar kuru aprēķināt trijstūra laukumu zinot tā malas
