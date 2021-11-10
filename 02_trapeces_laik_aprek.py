@@ -1,0 +1,3 @@
+"""
+Trapces laukuma aprēķināšana. 
+"""
