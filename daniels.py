@@ -1,5 +1,7 @@
 # Veidoju programmu ar kuru aprēķināt trijstūra laukumu zinot tā malas
 
+import math
+
 while True:
             a = input("Ievadiet 1. malas garumu: ")
             try:
@@ -34,3 +36,4 @@ while True:
                 print("Ievadītā vērtība nav skaitlis, mēģiniet vēlreiz")
 
 x = (a, b, c) / 2
+
