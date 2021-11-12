@@ -33,3 +33,4 @@ while True:
             except ValueError:
                 print("Ievadītā vērtība nav skaitlis, mēģiniet vēlreiz")
 
+x = (a, b, c) / 2
