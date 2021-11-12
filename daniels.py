@@ -16,7 +16,7 @@ while True:
 while True:
             b = input("Ievadiet 2. malas garumu: ")
             try:
-                b = float(a)
+                b = float(b)
                 if b <= 0:
                     print("Mala nevar būt 0")
                 else:
@@ -35,8 +35,10 @@ while True:
             except ValueError:
                 print("Ievadītā vērtība nav skaitlis, mēģiniet vēlreiz")
 
-x = (a, b, c) / 2
+s = (a + b + c) / 2
 
-laukums = math.sqrt(x * (x - a) * (x - b) * (x - c))
-
-print(f"Trijstūra laukums ir {laukums}")
+try:
+    laukums = math.sqrt(s*(s-a)*(s-b)*(s-c))
+    print(f"Trijstūra laukums ir {laukums}")
+except ValueError:
+    print("Laukumu neizdevās aprēķināt")
