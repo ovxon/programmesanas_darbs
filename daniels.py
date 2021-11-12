@@ -37,3 +37,6 @@ while True:
 
 x = (a, b, c) / 2
 
+laukums = math.sqrt(x * (x - a) * (x - b) * (x - c))
+
+print(f"Trijstūra laukums ir {laukums}")
